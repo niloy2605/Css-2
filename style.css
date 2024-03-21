@@ -1,0 +1,44 @@
+.shop-stor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+
+.box{
+    height: 550px;
+    /* border: 3px solid black; */
+    width: 23%;
+    background-color: #ffffff;
+    padding: 10px 0px 15px;
+    margin: 10px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+    
+.box-content .money{
+    background-color: #3B3B98;
+    color: white;
+    padding: 5px;
+    display:inline-block;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.top-price{
+    text-decoration: line-through;
+}
+
+.price{
+    color: #ff7802;
+}
